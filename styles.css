@@ -1,42 +1,68 @@
 body {
-    margin-top: 0em; 
-    margin-left: 4em; 
-    margin-right: 4em; 
-    margin-bottom: 0em; 
-    font-family: Open sans; 
-    font-size: 1rem;
     background-color: #f9f9f9;
+    margin-top: 0em;
+    margin-left: 4em;
+    margin-right: 4em;
+    margin-bottom: 0em;
 }
 
-h1, blockquote, div#details {
+article {
+    font-family: Open Sans;
+    font-size: 1rem;
+    background-color: white;
+}
+
+h1, div#details {
     font-family: Roboto Slab;
+    text-align: center;
 }
 
 h1 {
-    font-size: 2.75rem; 
-    text-align: center; 
-    color: #9f2042;
+    font-size: 2rem;
     text-transform: uppercase;
-    line-height: 40px;
-    padding: 0;
-    margin-bottom: 10px;
+    color: #9f2402;
+    margin: 0;
 }
 
 blockquote {
     font-size: 1.25rem;
-    padding: 10px;
+    border: #ececec;
+    background-color: #f9f9f9;
+    padding: 1em;
+    margin-left: 4em;
+    margin-right: 4em;
+    font-family: Roboto Slab;
+}
+
+img {
+    display: block;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    width: 100%;
 }
 
 div#details {
-    color: #a9a9a9; 
-    text-align: center; 
-    font-size: 1.5rem;
+    font-size: 1.25rem;
+    color: #a9a9ba;
 }
 
-div p {
-    text-align: center;
+p {
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+footer {
+    background-color: #29293a;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    color: white;
+}
+
+a {
+    color: #ec8295; 
 }
 
 div#buttons {
-    color: #ec8295;
+    margin-left: 2em;
+    margin-bottom: 0.5em;
 }
