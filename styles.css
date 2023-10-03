@@ -64,5 +64,17 @@ a {
 
 div#buttons {
     margin-left: 2em;
-    margin-bottom: 0.5em;
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+
+div#buttons a {
+    border: 1px solid #ececec;
+    border-radius: 5px;
+    padding: 1em;
+}
+
+div#buttons a:hover {
+    background-color: #a9a9ba;
+    color: #9f2402;
 }
